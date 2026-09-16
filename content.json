@@ -1,0 +1,116 @@
+{
+  "hero": {
+    "name": "Dede Eka Prasetya",
+    "role": "Software Engineer",
+    "tagline": "Membangun sistem yang andal, dari infrastruktur hingga antarmuka.",
+    "available": true,
+    "availableText": "Open to Opportunities",
+    "stats": [
+      { "value": "5+", "label": "Tahun Pengalaman" },
+      { "value": "10+", "label": "Proyek Selesai" },
+      { "value": "4", "label": "Domain Keahlian" }
+    ]
+  },
+  "about": {
+    "photo": "/assets/img/parsonal-info/1719031540370.jpeg",
+    "title": "Software Engineer",
+    "bio": "Software Engineer dari North Sumatera, Indonesia, yang bekerja di rumah sakit pemerintah. Berpengalaman membangun sistem informasi skala enterprise, aplikasi mobile, dan backend service.",
+    "manifesto": [
+      {
+        "number": "01",
+        "title": "Problem-First Engineering",
+        "text": "Setiap baris kode yang saya tulis dimulai dari pemahaman masalah yang dalam — bukan dari teknologi yang sedang tren."
+      },
+      {
+        "number": "02",
+        "title": "Full-Stack Thinking",
+        "text": "Saya nyaman bergerak dari database schema hingga UI pixel, dari server config hingga API contract."
+      },
+      {
+        "number": "03",
+        "title": "Continuous Delivery",
+        "text": "Kode yang tidak di-deploy adalah kode yang tidak berguna. Saya percaya pada iterasi cepat dan feedback loop yang pendek."
+      }
+    ],
+    "techStack": {
+      "Backend": ["Go", "Node.js", "PHP", "Laravel", "Yii2", "Python", ".NET"],
+      "Frontend": ["React.js", "Flutter", "JavaScript", "Dart"],
+      "Database": ["PostgreSQL", "MySQL", "MongoDB", "Firebase"],
+      "DevOps": ["Docker", "Linux", "Git", "CI/CD"]
+    }
+  },
+  "experience": [
+    {
+      "period": "2021 — Sekarang",
+      "role": "Sr. Software Engineer",
+      "company": "RSUP H. Adam Malik",
+      "location": "Medan, North Sumatera",
+      "achievements": [
+        "Membangun dan memelihara Sistem Informasi Rumah Sakit (SIRS) terintegrasi",
+        "Mengembangkan aplikasi absensi mobile berbasis GPS untuk tenaga medis",
+        "Merancang arsitektur microservice untuk layanan internal rumah sakit",
+        "Implementasi CI/CD pipeline yang mempercepat cycle deployment secara signifikan",
+        "Mengelola tim kecil pengembang dalam proyek-proyek kritikal"
+      ]
+    },
+    {
+      "period": "2020",
+      "role": "IT Staff",
+      "company": "Pengadilan Negeri Medan Kelas IA Khusus",
+      "location": "Medan, North Sumatera",
+      "achievements": [
+        "Membangun portal JDIH (Jaringan Dokumentasi dan Informasi Hukum)",
+        "Mengelola infrastruktur IT dan jaringan internal pengadilan",
+        "Administrasi server dan pemeliharaan sistem informasi"
+      ]
+    }
+  ],
+  "showcase": [
+    {
+      "id": "sirs-mandiri",
+      "name": "SIRS Mandiri",
+      "url": "",
+      "category": "Fullstack",
+      "description": "Sistem Informasi Rumah Sakit terintegrasi yang mencakup manajemen rekam medis, antrian pasien, apotek, dan pelaporan. Dibangun untuk meningkatkan efisiensi operasional RSUP H. Adam Malik.",
+      "image": "/assets/img/work/sirsmandiri.png",
+      "techStack": ["PHP", "Laravel", "MySQL", "JavaScript", "Docker"]
+    },
+    {
+      "id": "pinikabdi",
+      "name": "PinikAbdi",
+      "url": "",
+      "category": "Fullstack",
+      "description": "Aplikasi manajemen dan monitoring pegawai pemerintahan. Dilengkapi fitur absensi GPS, laporan aktivitas harian, dan dashboard admin real-time untuk supervisor.",
+      "image": "/assets/img/work/app-pinikabdi.webp",
+      "techStack": ["Flutter", "Dart", "Go", "PostgreSQL", "Firebase"]
+    },
+    {
+      "id": "absensi",
+      "name": "Sistem Absensi",
+      "url": "",
+      "category": "Backend",
+      "description": "Aplikasi absensi mobile untuk tenaga medis dengan fitur geolocation check-in, validasi jadwal kerja, dan sinkronisasi real-time ke server pusat rumah sakit.",
+      "image": "/assets/img/work/absensi.png",
+      "techStack": ["Flutter", "Dart", "Node.js", "MongoDB", "Firebase"]
+    },
+    {
+      "id": "jdih",
+      "name": "JDIH Online",
+      "url": "",
+      "category": "Frontend",
+      "description": "Portal Jaringan Dokumentasi dan Informasi Hukum untuk Pengadilan Negeri Medan. Menyediakan akses publik ke dokumen hukum, peraturan, dan putusan pengadilan.",
+      "image": "/assets/img/work/jdih.png",
+      "techStack": ["PHP", "Yii2", "MySQL", "JavaScript", "Bootstrap"]
+    }
+  ],
+  "contact": {
+    "email": "dedeeka85@gmail.com",
+    "location": "North Sumatera, Indonesia",
+    "cv": "/Dede_Eka_Prasetya_Updated_CV.pdf",
+    "social": [
+      { "name": "LinkedIn", "url": "https://linkedin.com/in/dede-eka-prasetya/", "icon": "fa-brands fa-linkedin-in" },
+      { "name": "Twitter / X", "url": "https://x.com/dekasetya_", "icon": "fa-brands fa-x-twitter" },
+      { "name": "Instagram", "url": "https://instagram.com/dedeekaprasetya", "icon": "fa-brands fa-instagram" }
+    ]
+  }
+}
