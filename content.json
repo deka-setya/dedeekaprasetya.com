@@ -6,7 +6,7 @@
     "available": true,
     "availableText": "Open to Opportunities",
     "stats": [
-      { "value": "5+", "label": "Tahun Pengalaman" },
+      { "value": "6+", "label": "Tahun Pengalaman" },
       { "value": "10+", "label": "Proyek Selesai" },
       { "value": "4", "label": "Domain Keahlian" }
     ]
@@ -41,27 +41,39 @@
   },
   "experience": [
     {
-      "period": "2021 — Sekarang",
-      "role": "Sr. Software Engineer",
-      "company": "RSUP H. Adam Malik",
-      "location": "Medan, North Sumatera",
+      "period": "Okt 2025 — Sekarang",
+      "role": "Software Engineer",
+      "company": "Pusat Jantung Nasional Harapan Kita",
+      "location": "Jakarta Barat, Jakarta Raya",
       "achievements": [
-        "Membangun dan memelihara Sistem Informasi Rumah Sakit (SIRS) terintegrasi",
-        "Mengembangkan aplikasi absensi mobile berbasis GPS untuk tenaga medis",
-        "Merancang arsitektur microservice untuk layanan internal rumah sakit",
-        "Implementasi CI/CD pipeline yang mempercepat cycle deployment secara signifikan",
-        "Mengelola tim kecil pengembang dalam proyek-proyek kritikal"
+        "Merancang dan mengembangkan ekosistem HRIS komprehensif, mencakup modul presensi real-time, otomatisasi sistem penggajian (payroll), dan manajemen master data pegawai untuk meningkatkan efisiensi operasional tim OSDM.",
+        "Membangun sistem pengarsipan Rekam Medis Elektronik (EMR) yang aman dan terstruktur, memfasilitasi digitalisasi data pasien dan mempercepat akses informasi bagi tenaga medis.",
+        "Mengimplementasikan arsitektur API Gateway untuk integrasi Tanda Tangan Elektronik (E-Signature), memastikan otentikasi, keamanan data, dan legalisasi dokumen digital berjalan terpusat dan efisien.",
+        "Mengintegrasikan SIMRS dengan platform nasional SATUSEHAT menggunakan standar interoperabilitas HL7 FHIR R4, memastikan kelancaran pertukaran data klinis pasien secara nasional.",
+        "Membangun infrastruktur backend berskala enterprise yang tangguh dan terstandardisasi menggunakan teknologi kontainerisasi modern.",
+        "Melakukan audit berkala, manajemen kapasitas storage, dan tuning performa kueri basis data PostgreSQL produksi untuk menjaga stabilitas sistem di bawah beban trafik tinggi."
       ]
     },
     {
-      "period": "2020",
+      "period": "Apr 2021 — Sep 2025 · 4 thn 6 bln",
+      "role": "Software Engineer",
+      "company": "RSUP H. Adam Malik",
+      "location": "Medan Tuntungan, Sumatera Utara",
+      "achievements": [
+        "Merancang dan mengembangkan modul krusial pada SIMRS, mencakup manajemen Farmasi, Sistem Inventaris Gudang, dan Presensi Pegawai guna mendigitalisasi efisiensi operasional harian rumah sakit.",
+        "Mengeksekusi integrasi API antara modul farmasi internal dengan platform SATUSEHAT (Kemenkes RI), memastikan interoperabilitas data medis yang aman dan pelaporan real-time.",
+        "Membangun integrasi sistem autentikasi biometrik (fingerprint) dokter ke dalam portal Super App SIMRS, meningkatkan keamanan data dan kemudahan akses (Single Sign-On/SSO).",
+        "Mengembangkan Executive Dashboard interaktif untuk jajaran Direksi, menyajikan visualisasi data strategis real-time: billing, stok farmasi & alkes, Bed Occupancy Rate, dan performa pegawai."
+      ]
+    },
+    {
+      "period": "Feb 2020 — Okt 2020 · 9 bln",
       "role": "IT Staff",
       "company": "Pengadilan Negeri Medan Kelas IA Khusus",
-      "location": "Medan, North Sumatera",
+      "location": "Medan Petisah, Sumatera Utara",
       "achievements": [
-        "Membangun portal JDIH (Jaringan Dokumentasi dan Informasi Hukum)",
-        "Mengelola infrastruktur IT dan jaringan internal pengadilan",
-        "Administrasi server dan pemeliharaan sistem informasi"
+        "Membangun portal website rekapitulasi berkas panitera (PHP, JS, Git) untuk sentralisasi dan pelacakan dokumen pengadilan.",
+        "Mengelola maintenance jaringan dan troubleshooting hardware komputer untuk menjaga kelancaran operasional harian pengadilan."
       ]
     }
   ],
