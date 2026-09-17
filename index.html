@@ -161,10 +161,10 @@ ul{list-style:none}
 .hero-grid{position:absolute;inset:0;background-image:linear-gradient(var(--border) 1px,transparent 1px),linear-gradient(90deg,var(--border) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse at 50% 40%,black 25%,transparent 75%);opacity:.55}
 .hero-glow{position:absolute;top:15%;left:50%;transform:translateX(-50%);width:700px;height:500px;background:radial-gradient(ellipse,rgba(0,240,255,.055) 0%,transparent 65%);pointer-events:none}
 .hero-content{position:relative;z-index:1;max-width:920px}
-.hero-badge{display:inline-flex;align-items:center;gap:8px;background:var(--accent-dim);border:1px solid var(--border-a);border-radius:100px;padding:6px 16px;font-family:var(--fm);font-size:12px;color:var(--accent);margin-bottom:28px;opacity:0;animation:fadeSlideDown .6s var(--ease) .3s forwards}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:var(--accent-dim);border:1px solid var(--border-a);border-radius:100px;padding:6px 16px;font-family:var(--fm);font-size:12px;color:var(--accent);margin-bottom:28px;opacity:0;animation:fadeIn .6s var(--ease) .3s forwards}
 .badge-dot{width:7px;height:7px;background:var(--accent);border-radius:50%;box-shadow:0 0 8px var(--accent);animation:pulse 2.2s ease-in-out infinite}
 .hero-name{font-family:var(--fd);font-size:clamp(50px,9.5vw,108px);font-weight:800;line-height:.95;letter-spacing:-.035em;color:var(--text-1);margin-bottom:22px;overflow:hidden}
-.hero-name-line{display:block;opacity:0;transform:translateY(110%);animation:lineUp .9s var(--ease) forwards}
+.hero-name-line{display:block;opacity:0;animation:fadeIn .9s var(--ease) forwards}
 .hero-name-line:nth-child(1){animation-delay:.5s}
 .hero-name-line:nth-child(2){animation-delay:.65s}
 .hero-name em{color:var(--accent);font-style:normal}
@@ -295,8 +295,6 @@ footer em{color:var(--accent);font-style:normal}
 
 /* KEYFRAMES */
 @keyframes fadeIn{to{opacity:1}}
-@keyframes fadeSlideDown{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
-@keyframes lineUp{to{opacity:1;transform:translateY(0)}}
 @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @keyframes pulse{0%,100%{box-shadow:0 0 8px var(--accent)}50%{box-shadow:0 0 18px var(--accent);opacity:.55}}
 
