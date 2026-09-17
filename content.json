@@ -111,7 +111,7 @@
       "name": "JDIH Online",
       "url": "",
       "category": "Frontend",
-      "description": "Portal Jaringan Dokumentasi dan Informasi Hukum untuk Pengadilan Negeri Medan. Menyediakan akses publik ke dokumen hukum, peraturan, dan putusan pengadilan.",
+      "description": "Portal Jaringan Dokumentasi dan Informasi Hukum untuk Sekretariat DPRD Kota Binjai. Menyediakan akses publik ke dokumen hukum, peraturan, dan putusan pengadilan.",
       "image": "/assets/img/work/jdih.webp",
       "techStack": ["PHP", "Yii2", "MySQL", "JavaScript", "Bootstrap"]
     },
