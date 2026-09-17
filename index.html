@@ -152,11 +152,7 @@ ul{list-style:none}
 
 /* EXPERIENCE */
 #pengalaman{padding:var(--sp) 0;background:var(--bg-1);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
-.timeline{margin-top:48px;position:relative;padding-left:26px}
-.timeline::before{content:'';position:absolute;left:0;top:10px;bottom:10px;width:1px;background:var(--border)}
-.tl-item{position:relative;padding-bottom:44px}
-.tl-item:last-child{padding-bottom:0}
-.tl-node{position:absolute;left:-32px;top:8px;width:12px;height:12px;border-radius:50%;background:var(--accent);box-shadow:0 0 14px var(--accent-glow);border:2px solid var(--bg-1)}
+.timeline{margin-top:48px;display:grid;grid-template-columns:1fr;gap:24px}
 .tl-period{font-family:var(--fm);font-size:11px;color:var(--accent);margin-bottom:12px;opacity:.75}
 .tl-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);padding:22px;transition:border-color .3s}
 .tl-card:hover{border-color:var(--border-a)}
@@ -164,12 +160,6 @@ ul{list-style:none}
 .tl-company{font-size:14px;color:var(--text-2);margin-bottom:14px;display:flex;align-items:center;gap:7px}
 .tl-company i{color:var(--text-3);font-size:12px}
 .tl-company em{color:var(--text-3);font-style:normal;font-size:12px}
-.tl-toggle{display:inline-flex;align-items:center;gap:6px;font-family:var(--fm);font-size:12px;color:var(--accent);opacity:.7;transition:opacity .2s}
-.tl-toggle:hover{opacity:1}
-.tl-toggle i{transition:transform .3s}
-.tl-toggle.open i{transform:rotate(180deg)}
-.tl-ach{overflow:hidden;max-height:0;transition:max-height .45s var(--ease)}
-.tl-ach.open{max-height:500px}
 .tl-ach ul{margin-top:16px;display:flex;flex-direction:column;gap:8px}
 .tl-ach li{font-size:14px;color:var(--text-2);padding-left:18px;position:relative;line-height:1.65}
 .tl-ach li::before{content:'›';position:absolute;left:0;color:var(--accent);font-size:15px;line-height:1.45}
@@ -481,7 +471,9 @@ const FALLBACK = {
     {id:"sirs",name:"SIRS Mandiri",url:"",category:"Fullstack",description:"Sistem Informasi Rumah Sakit terintegrasi mencakup manajemen rekam medis, antrian pasien, apotek, dan pelaporan. Dibangun untuk meningkatkan efisiensi operasional RSUP H. Adam Malik.",image:"/assets/img/work/sirsmandiri.png",techStack:["PHP","Laravel","MySQL","JavaScript","Docker"]},
     {id:"pinikabdi",name:"PinikAbdi",url:"",category:"Fullstack",description:"Aplikasi manajemen dan monitoring pegawai pemerintahan. Dilengkapi fitur absensi GPS, laporan aktivitas harian, dan dashboard admin real-time.",image:"/assets/img/work/app-pinikabdi.webp",techStack:["Flutter","Dart","Go","PostgreSQL","Firebase"]},
     {id:"absensi",name:"Sistem Absensi",url:"",category:"Backend",description:"Aplikasi absensi mobile untuk tenaga medis dengan fitur geolocation check-in dan sinkronisasi real-time ke server pusat rumah sakit.",image:"/assets/img/work/absensi.png",techStack:["Flutter","Dart","Node.js","MongoDB","Firebase"]},
-    {id:"jdih",name:"JDIH Online",url:"",category:"Frontend",description:"Portal Jaringan Dokumentasi dan Informasi Hukum untuk Pengadilan Negeri Medan. Menyediakan akses publik ke dokumen hukum, peraturan, dan putusan pengadilan.",image:"/assets/img/work/jdih.png",techStack:["PHP","Yii2","MySQL","JavaScript","Bootstrap"]}
+    {id:"jdih",name:"JDIH Online",url:"",category:"Frontend",description:"Portal Jaringan Dokumentasi dan Informasi Hukum untuk Pengadilan Negeri Medan. Menyediakan akses publik ke dokumen hukum, peraturan, dan putusan pengadilan.",image:"/assets/img/work/jdih.png",techStack:["PHP","Yii2","MySQL","JavaScript","Bootstrap"]},
+    {id:"jaganakes",name:"JagaNakes",url:"",category:"Fullstack",description:"Aplikasi seluler untuk tenaga kesehatan: manajemen shift jaga, dompet dokumen profesional (STR/SIP) dengan peringatan kedaluwarsa, presensi berbasis geofencing, serta payroll dan dasbor rekap kehadiran.",image:"/assets/img/work/jaganakes.jpg",techStack:["Flutter","Go","Echo","PostgreSQL","JWT"]},
+    {id:"jagapegawai",name:"JagaPegawai",url:"",category:"Fullstack",description:"Aplikasi HRIS umum hasil generalisasi dari JagaNakes: manajemen shift kerja, dompet dokumen karyawan, presensi geofencing, serta payroll otomatis dengan perhitungan PPh 21.",image:"/assets/img/work/jagapegawai.jpg",techStack:["Flutter","Go","Echo","PostgreSQL","JWT"]}
   ],
   contact:{
     email:"dedeeka85@gmail.com",location:"North Sumatera, Indonesia",cv:"/Dede_Eka_Prasetya_Updated_CV.pdf",
@@ -573,7 +565,6 @@ function renderAbout(){
 function renderExperience(){
   document.getElementById('timeline').innerHTML = (DATA.experience||[]).map((e,i)=>`
     <div class="tl-item reveal rd${i+1}">
-      <div class="tl-node"></div>
       <div class="tl-period">${e.period}</div>
       <div class="tl-card">
         <div class="tl-role">${e.role}</div>
@@ -581,10 +572,7 @@ function renderExperience(){
           <i class="fa-regular fa-building"></i>${e.company}
           ${e.location?`<em>· ${e.location}</em>`:''}
         </div>
-        <button class="tl-toggle" onclick="toggleAch(this,'ach-${i}')">
-          <i class="fa-solid fa-chevron-down"></i> Lihat Pencapaian
-        </button>
-        <div class="tl-ach" id="ach-${i}">
+        <div class="tl-ach">
           <ul>${(e.achievements||[]).map(a=>`<li>${a}</li>`).join('')}</ul>
         </div>
       </div>
@@ -660,14 +648,6 @@ function closeLb(){
 }
 function lbOutsideClick(e){ if(e.target===document.getElementById('lightbox')) closeLb(); }
 document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeLb(); });
-
-// === EXPERIENCE TOGGLE ===
-function toggleAch(btn, id){
-  const el = document.getElementById(id);
-  const open = el.classList.toggle('open');
-  btn.classList.toggle('open', open);
-  btn.innerHTML = `<i class="fa-solid fa-chevron-down"></i> ${open?'Sembunyikan':'Lihat Pencapaian'}`;
-}
 
 // === COPY EMAIL ===
 function copyEmail(){

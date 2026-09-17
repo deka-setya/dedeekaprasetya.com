@@ -36,7 +36,8 @@
       "Backend": ["Go", "Node.js", "PHP", "Laravel", "Yii2", "Python", ".NET"],
       "Frontend": ["React.js", "Flutter", "JavaScript", "Dart"],
       "Database": ["PostgreSQL", "MySQL", "MongoDB", "Firebase"],
-      "DevOps": ["Docker", "Linux", "Git", "CI/CD"]
+      "DevOps": ["Docker", "Linux", "Git", "CI/CD"],
+      "Additional": ["Biometric Authentication", "Agile & Waterfall Methodologies", "Software Development Life Cycle (SDLC)", "Health Informatics"]
     }
   },
   "experience": [
@@ -85,14 +86,14 @@
       "category": "Fullstack",
       "description": "Sistem Informasi Rumah Sakit terintegrasi yang mencakup manajemen rekam medis, antrian pasien, apotek, dan pelaporan. Dibangun untuk meningkatkan efisiensi operasional RSUP H. Adam Malik.",
       "image": "/assets/img/work/sirsmandiri.png",
-      "techStack": ["PHP", "Laravel", "MySQL", "JavaScript", "Docker"]
+      "techStack": ["PHP", "Yii2", "Biometric Authentification", "MySQL", "PostgreSQL", "JavaScript", "Docker"]
     },
     {
       "id": "pinikabdi",
-      "name": "PinikAbdi",
+      "name": "PINIKABDI 2024",
       "url": "",
       "category": "Fullstack",
-      "description": "Aplikasi manajemen dan monitoring pegawai pemerintahan. Dilengkapi fitur absensi GPS, laporan aktivitas harian, dan dashboard admin real-time untuk supervisor.",
+      "description": "Aplikasi Android dan Web untuk menyelenggarakan seminar daring yang memungkinkan pengguna mendaftar dan menghadiri seminar.",
       "image": "/assets/img/work/app-pinikabdi.webp",
       "techStack": ["Flutter", "Dart", "Go", "PostgreSQL", "Firebase"]
     },
@@ -101,9 +102,9 @@
       "name": "Sistem Absensi",
       "url": "",
       "category": "Backend",
-      "description": "Aplikasi absensi mobile untuk tenaga medis dengan fitur geolocation check-in, validasi jadwal kerja, dan sinkronisasi real-time ke server pusat rumah sakit.",
+      "description": "Aplikasi absensi berbasis Android dengan pelacak GPS untuk pegawai RSUP H. Adam Malik.",
       "image": "/assets/img/work/absensi.png",
-      "techStack": ["Flutter", "Dart", "Node.js", "MongoDB", "Firebase"]
+      "techStack": ["Flutter", "Dart", "PHP", "Yii2", "PostgreSQL"]
     },
     {
       "id": "jdih",
@@ -113,6 +114,33 @@
       "description": "Portal Jaringan Dokumentasi dan Informasi Hukum untuk Pengadilan Negeri Medan. Menyediakan akses publik ke dokumen hukum, peraturan, dan putusan pengadilan.",
       "image": "/assets/img/work/jdih.png",
       "techStack": ["PHP", "Yii2", "MySQL", "JavaScript", "Bootstrap"]
+    },
+    {
+      "id": "jaganakes",
+      "name": "JagaNakes",
+      "url": "https://jaganakes.mylabhunter.my.id",
+      "category": "Fullstack",
+      "description": "Aplikasi seluler untuk tenaga kesehatan: manajemen shift jaga, dompet dokumen profesional (STR/SIP) dengan peringatan kedaluwarsa, presensi berbasis geofencing, serta payroll dan dasbor rekap kehadiran.",
+      "image": "/assets/img/work/jaganakes.jpg",
+      "techStack": ["Flutter", "Go", "Echo", "PostgreSQL", "JWT"]
+    },
+    {
+      "id": "jagapegawai",
+      "name": "JagaPegawai",
+      "url": "https://jagapegawai.mylabhunter.my.id",
+      "category": "Fullstack",
+      "description": "Aplikasi HRIS umum hasil generalisasi dari JagaNakes: manajemen shift kerja, dompet dokumen karyawan, presensi geofencing, serta payroll otomatis dengan perhitungan PPh 21.",
+      "image": "/assets/img/work/jagapegawai.jpg",
+      "techStack": ["Flutter", "Go", "Echo", "PostgreSQL", "JWT"]
+    },
+    {
+      "id": "codamed-informatika",
+      "name": "CodaMed Informatika",
+      "url": "https://clinical-icd-10-mapper-41523145507.asia-southeast1.run.app/",
+      "category": "Fullstack",
+      "description": "Sistem pendukung keputusan klinis cerdas yang memanfaatkan Generative AI dan D3.js untuk memetakan narasi klinis mentah, laporan lab, temuan EKG, dan citra radiologi secara otomatis ke kode klinis internasional ICD-10 dengan kecepatan pemrosesan di bawah 5 detik.",
+      "image": "/assets/img/work/codamed-informatika.jpeg",
+      "techStack": ["React", "TypeScript", "Express", "D3.js", "Gemini API"]
     }
   ],
   "contact": {
