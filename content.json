@@ -85,7 +85,7 @@
       "url": "",
       "category": "Fullstack",
       "description": "Sistem Informasi Rumah Sakit terintegrasi yang mencakup manajemen rekam medis, antrian pasien, apotek, dan pelaporan. Dibangun untuk meningkatkan efisiensi operasional RSUP H. Adam Malik.",
-      "image": "/assets/img/work/sirsmandiri.png",
+      "image": "/assets/img/work/sirsmandiri.webp",
       "techStack": ["PHP", "Yii2", "Biometric Authentification", "MySQL", "PostgreSQL", "JavaScript", "Docker"]
     },
     {
@@ -103,7 +103,7 @@
       "url": "",
       "category": "Backend",
       "description": "Aplikasi absensi berbasis Android dengan pelacak GPS untuk pegawai RSUP H. Adam Malik.",
-      "image": "/assets/img/work/absensi.png",
+      "image": "/assets/img/work/absensi.webp",
       "techStack": ["Flutter", "Dart", "PHP", "Yii2", "PostgreSQL"]
     },
     {
@@ -112,7 +112,7 @@
       "url": "",
       "category": "Frontend",
       "description": "Portal Jaringan Dokumentasi dan Informasi Hukum untuk Pengadilan Negeri Medan. Menyediakan akses publik ke dokumen hukum, peraturan, dan putusan pengadilan.",
-      "image": "/assets/img/work/jdih.png",
+      "image": "/assets/img/work/jdih.webp",
       "techStack": ["PHP", "Yii2", "MySQL", "JavaScript", "Bootstrap"]
     },
     {
@@ -139,7 +139,7 @@
       "url": "https://clinical-icd-10-mapper-41523145507.asia-southeast1.run.app/",
       "category": "Fullstack",
       "description": "Sistem pendukung keputusan klinis cerdas yang memanfaatkan Generative AI dan D3.js untuk memetakan narasi klinis mentah, laporan lab, temuan EKG, dan citra radiologi secara otomatis ke kode klinis internasional ICD-10 dengan kecepatan pemrosesan di bawah 5 detik.",
-      "image": "/assets/img/work/codamed-informatika.jpeg",
+      "image": "/assets/img/work/codamed-informatika.webp",
       "techStack": ["React", "TypeScript", "Express", "D3.js", "Gemini API"]
     }
   ],
