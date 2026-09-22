@@ -73,7 +73,7 @@
       "company": "Pengadilan Negeri Medan Kelas IA Khusus",
       "location": "Medan Petisah, Sumatera Utara",
       "achievements": [
-        "Membangun portal website rekapitulasi berkas panitera (PHP, JS, Git) untuk sentralisasi dan pelacakan dokumen pengadilan.",
+        "Membangun portal website rekapitulasi berkas panitera (PHP, JS, MySQL, Git) untuk sentralisasi dan pelacakan dokumen pengadilan.",
         "Mengelola maintenance jaringan dan troubleshooting hardware komputer untuk menjaga kelancaran operasional harian pengadilan."
       ]
     }
