@@ -136,7 +136,7 @@
     {
       "id": "codamed-informatika",
       "name": "CodaMed Informatika",
-      "url": "https://clinical-icd-10-mapper-41523145507.asia-southeast1.run.app/",
+      "url": "https://codamed.dedeekaprasetya.com",
       "category": "Fullstack",
       "description": "Sistem pendukung keputusan klinis cerdas yang memanfaatkan Generative AI dan D3.js untuk memetakan narasi klinis mentah, laporan lab, temuan EKG, dan citra radiologi secara otomatis ke kode klinis internasional ICD-10 dengan kecepatan pemrosesan di bawah 5 detik.",
       "image": "/assets/img/work/codamed-informatika.webp",
