@@ -122,7 +122,7 @@
       "category": "Fullstack",
       "description": "Aplikasi seluler untuk tenaga kesehatan: manajemen shift jaga, dompet dokumen profesional (STR/SIP) dengan peringatan kedaluwarsa, presensi berbasis geofencing, serta payroll dan dasbor rekap kehadiran.",
       "image": "/assets/img/work/jaganakes.jpg",
-      "techStack": ["Flutter", "Go", "Echo", "PostgreSQL", "JWT"]
+      "techStack": ["Flutter", "Svelte", "PWA", "Go", "Echo", "PostgreSQL", "Docker", "Nginx"]
     },
     {
       "id": "jagapegawai",
@@ -131,7 +131,7 @@
       "category": "Fullstack",
       "description": "Aplikasi HRIS umum hasil generalisasi dari JagaNakes: manajemen shift kerja, dompet dokumen karyawan, presensi geofencing, serta payroll otomatis dengan perhitungan PPh 21.",
       "image": "/assets/img/work/jagapegawai.jpg",
-      "techStack": ["Flutter", "Go", "Echo", "PostgreSQL", "JWT"]
+      "techStack": ["Flutter", "Svelte", "PWA", "Go", "Echo", "PostgreSQL", "Docker", "Nginx"]
     },
     {
       "id": "codamed-informatika",
@@ -140,7 +140,7 @@
       "category": "Fullstack",
       "description": "Sistem pendukung keputusan klinis cerdas yang memanfaatkan Generative AI dan D3.js untuk memetakan narasi klinis mentah, laporan lab, temuan EKG, dan citra radiologi secara otomatis ke kode klinis internasional ICD-10 dengan kecepatan pemrosesan di bawah 5 detik.",
       "image": "/assets/img/work/codamed-informatika.webp",
-      "techStack": ["React", "TypeScript", "Express", "D3.js", "Gemini API"]
+      "techStack": ["React", "Vite", "SPA", "PWA", "TypeScript", "Go", "Echo", "PotsgreSQL", "D3.js", "Payment Gateway", "Gemini API", "Deepseek API", "Docker", "Nginx"]
     }
   ],
   "contact": {
