@@ -136,10 +136,10 @@
     {
       "id": "mulesmeter",
       "name": "MulesMeter",
-      "url": "/mulesmeter.apk",
+      "url": "/assets/mulesmeter.apk",
       "category": "Mobile",
       "description": "Aplikasi Android untuk memantau kontraksi menjelang Hari Perkiraan Lahir (HPL). Dilengkapi timer kontraksi, riwayat lengkap, grafik durasi dan intensitas, serta analisis AI (Gemini/DeepSeek) yang berjalan offline-first tanpa memerlukan akun.",
-      "image": "/assets/img/work/mulesmeter.png",
+      "image": "/assets/img/work/mulesmeter.webp",
       "techStack": ["Flutter", "Dart", "Riverpod", "Drift", "SQLite", "Gemini API", "DeepSeek API", "fl_chart"]
     },
     {
