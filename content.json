@@ -7,7 +7,7 @@
     "availableText": "Open to Opportunities",
     "stats": [
       { "value": "6+", "label": "Tahun Pengalaman" },
-      { "value": "10+", "label": "Proyek Selesai" },
+      { "value": "11+", "label": "Proyek Selesai" },
       { "value": "4", "label": "Domain Keahlian" }
     ]
   },
@@ -132,6 +132,15 @@
       "description": "Aplikasi HRIS umum hasil generalisasi dari JagaNakes: manajemen shift kerja, dompet dokumen karyawan, presensi geofencing, serta payroll otomatis dengan perhitungan PPh 21.",
       "image": "/assets/img/work/jagapegawai.jpg",
       "techStack": ["Flutter", "Svelte", "PWA", "Go", "Echo", "PostgreSQL", "Docker", "Nginx"]
+    },
+    {
+      "id": "mulesmeter",
+      "name": "MulesMeter",
+      "url": "/mulesmeter.apk",
+      "category": "Mobile",
+      "description": "Aplikasi Android untuk memantau kontraksi menjelang Hari Perkiraan Lahir (HPL). Dilengkapi timer kontraksi, riwayat lengkap, grafik durasi dan intensitas, serta analisis AI (Gemini/DeepSeek) yang berjalan offline-first tanpa memerlukan akun.",
+      "image": "/assets/img/work/mulesmeter.png",
+      "techStack": ["Flutter", "Dart", "Riverpod", "Drift", "SQLite", "Gemini API", "DeepSeek API", "fl_chart"]
     },
     {
       "id": "codamed-informatika",
