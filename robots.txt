@@ -1,9 +1,71 @@
-# Search engines
+# Search engines — all allowed
 User-agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 
-# AI assistants & LLM crawlers — explicitly allowed for indexing/citation
+# Google
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Bing / Microsoft (global)
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+# Yandex (Russia & CIS)
+User-agent: YandexBot
+Allow: /
+
+User-agent: YandexImages
+Allow: /
+
+# Baidu (China)
+User-agent: Baiduspider
+Allow: /
+
+# DuckDuckGo (global privacy-focused)
+User-agent: DuckDuckBot
+Allow: /
+
+# Yahoo / Oath
+User-agent: Slurp
+Allow: /
+
+# Naver (South Korea)
+User-agent: Naverbot
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+# Social media link preview crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# AI assistants & LLM crawlers — allowed for indexing/citation
 User-agent: GPTBot
 Allow: /
 
@@ -22,9 +84,6 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-User-agent: Google-Extended
-Allow: /
-
 User-agent: PerplexityBot
 Allow: /
 
@@ -32,15 +91,6 @@ User-agent: Perplexity-User
 Allow: /
 
 User-agent: CCBot
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
-
-User-agent: Bytespider
 Allow: /
 
 User-agent: Amazonbot
